@@ -1,0 +1,173 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+
+.container-fluid {
+    padding: 3% 15% 8%; 
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5 rem;
+    line-height: 1.5;
+}
+
+/*body {
+    font-family: 'Montserrat', sans-serif;
+}*/
+
+/*navigation bar*/
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-link {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-weight: bold;
+}
+
+/*download buttons*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*title-image*/
+
+.title-image {
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    z-index: 2;
+}
+
+/*features*/
+
+.feature-box {
+    text-align: center;
+    padding: 10% 5% 5%;
+
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68
+}
+
+.feat-description {
+    color: #8f8f8f;
+
+}
+
+.feat-heading {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*testimonials*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*press*/
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;/*top left-right bottom*/
+}
+
+/*pricing-section*/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 8% 25%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #fff;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;    
+}
+
+.small-icon{
+    padding: 1%;
+}
+@media (max-width: 1028px){
+    
+    .title-image{
+        position: static;
+        transform: rotate(5deg);
+        width: 80%;
+        padding-top: 50px;
+    }
+
+    .heading{
+        text-align: center;
+    }
+}
+
